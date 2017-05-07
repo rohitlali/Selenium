@@ -9,12 +9,12 @@ import java.io.File;
 /**
  * Created by rohit on 02-May-17.
  */
-class ExtentReportGenerator implements ReportGenerator {
+class ExtentReportGeneratorImpl implements ReportGenerator {
 
     protected static final ExtentReports extentReports;
 
     static {
-        extentReports = new ExtentReports("C:\\Rohit\\Code\\Practice\\Selenium\\Reports\\Test1.html", true);
+        extentReports = new ExtentReports("C:\\Rohit\\Code\\Practice\\Selenium\\Reports\\Test.html", true);
         File extentConfig = new File("extent-config.xml");
         extentReports.loadConfig(extentConfig);
     }

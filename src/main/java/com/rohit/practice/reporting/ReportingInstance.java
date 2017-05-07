@@ -8,7 +8,7 @@ import java.util.List;
  */
 public class ReportingInstance implements ReportGenerator {
 
-    private ReportGenerator extentReportGenerator = new ExtentReportGenerator();
+    private ReportGenerator extentReportGenerator = new ExtentReportGeneratorImpl();
     private List<ReportGenerator> reportGenerators = new ArrayList<>();
 
     protected ReportingInstance() {
