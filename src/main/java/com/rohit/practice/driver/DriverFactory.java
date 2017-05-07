@@ -15,7 +15,7 @@ public enum DriverFactory {
 
     INSTANCE;
 
-    ThreadLocal<WebDriver> driverContext = new ThreadLocal<WebDriver>();
+    ThreadLocal<WebDriver> driverContext = new ThreadLocal<>();
 
     public enum BROWSER {
         FIREFOX, IE, CHROME, HEADLESS;
@@ -30,7 +30,6 @@ public enum DriverFactory {
                 capabilities.setCapability(FirefoxDriver.PROFILE, createProfile());
                 break;
             // TODO: Add remaining
-
 
         }
 
@@ -49,7 +48,7 @@ public enum DriverFactory {
             case BrowserType.PHANTOMJS:
                 driver = new HtmlUnitDriver(desiredCapabilities);
                 break;
-            case BrowserType.CHROME:
+            case BrowserType.GOOGLECHROME:
                 System.setProperty("webdriver.chrome.driver", "target/chromedriver");
                 driver = new ChromeDriver(desiredCapabilities);
                 break;
