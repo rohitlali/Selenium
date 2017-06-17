@@ -69,7 +69,7 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.codehaus.groovy:groovy-all:2.4.9" level="project" />
     <orderEntry type="library" name="Maven: info.cukes:cucumber-java:1.2.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-api:5.0.0-M4" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: org.opentest4j:opentest4j:1.0.0-M2" level="project" />
+    <orderEntry type="library" name="Maven: org.opentest4j:opentest4j:1.0.0-M2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-commons:1.0.0-M4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.0.0-M4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.junit.platform:junit-platform-engine:1.0.0-M4" level="project" />
@@ -84,5 +84,9 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: info.cukes:gherkin:2.12.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: info.cukes:cucumber-spring:1.2.5" level="project" />
     <orderEntry type="library" name="Maven: info.cukes:cucumber-testng:1.2.5" level="project" />
+    <orderEntry type="library" name="Maven: org.junit:junit5-engine:5.0.0-ALPHA" level="project" />
+    <orderEntry type="library" name="Maven: org.junit:junit5-api:5.0.0-ALPHA" level="project" />
+    <orderEntry type="library" name="Maven: org.junit:junit-commons:5.0.0-ALPHA" level="project" />
+    <orderEntry type="library" name="Maven: org.junit:junit-engine-api:5.0.0-ALPHA" level="project" />
   </component>
 </module>
